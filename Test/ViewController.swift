@@ -27,6 +27,7 @@ class ViewController: UIViewController {
         let b = UIButton(frame:CGRect(x: 10, y: 120, width: 300, height: 60))
         b.backgroundColor = UIColor.green
         view.addSubview(b)
+        view.backgroundColor = UIColor.yellow
     }
 
     override func didReceiveMemoryWarning() {
