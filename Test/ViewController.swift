@@ -13,6 +13,15 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        addView()
+    }
+
+    private func addView() {
+        let t = UILabel(frame:CGRect(x: 10, y: 40, width: 300, height: 60))
+        t.textColor = UIColor.red
+        t.backgroundColor = UIColor.yellow
+        t.text = "xxxcddd"
+        view.addSubview(t)
     }
 
     override func didReceiveMemoryWarning() {
